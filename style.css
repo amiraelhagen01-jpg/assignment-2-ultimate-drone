@@ -1,0 +1,616 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-section{
+    width: 100%;
+    margin-bottom: 100px;
+    /* position: sticky;
+    top: 0; */
+}
+.navbar{
+    background-color: rgb(245, 243, 255);
+}
+
+.navbar-w{
+    width: 80%;
+    box-sizing: border-box;
+    padding: 16px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header-links   a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.home{
+    margin-bottom: 50px ;
+}
+
+.home-section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-image{
+   width: 45%;
+   position: relative;
+}
+
+.home-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sale-home{
+   background-color: rgb(142, 82, 253); 
+   color: white;
+   text-align: center;
+   box-sizing: border-box;
+   padding: 5px;
+   border-radius: 13px;
+   position: absolute;
+   top: 15px;
+   left: 15px;
+}
+
+.home-text{
+    width: 45%;    
+}
+
+.address-home{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.h-p{
+    width: 25%;
+    text-align: center;
+    color: white;
+    background-color: rgb(167, 133, 252);
+    font-size: 20px;
+    border-radius: 16px;
+    margin-left: 10px;
+    padding: 3px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.home-text   a{
+    font-size: 50px;
+}
+
+.pro{
+    color: rgb(142, 82, 253);
+}
+
+.experience{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.price{
+    font-size: 45px;
+    margin-top: 25px;
+}
+
+.other-p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.btn-card{
+    width: 90%;
+    color: white;
+    background-color: rgb(142, 82, 253);
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 16px;
+}
+
+.btn-list{
+    width: 90%;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 16px;
+}
+
+
+
+.features-section{
+background-color: rgb(245, 243, 255);
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+.compare{
+    display: flex;
+    justify-content: space-around;
+}
+.main-a{
+    font-size: 40px;
+}
+.compare-span{
+    color: rgb(142, 82, 253);
+}
+.main-p{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.features{
+    width: 100%;
+    margin: auto;
+}
+
+.table{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 30px 10px;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    margin: auto;
+}
+
+h3{
+    padding-top: 5px;
+}
+.raw1{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom: 2px gainsboro solid;
+}
+
+.w15{
+    width: 20%;
+    text-align: center;
+}
+.dji{
+    color: rgb(111, 8, 231);
+    background-color: rgb(236, 232, 254);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-bottom: 10px;
+}
+.dji p{
+    color: rgb(142, 82, 253);
+    font-size: 20px;
+}
+
+.airmaster   p{
+    font-size: 20px;
+    color: rgb(104, 114, 132);
+}
+
+.flightmax   p{
+    font-size: 20px;
+    color: rgb(104, 114, 132);
+}
+
+.skyhawk   p{
+    font-size: 20px;
+    color: rgb(104, 114, 132);
+}
+
+
+
+.raw2{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom: 2px gainsboro solid; 
+}
+
+.hd{
+   color: rgb(111, 8, 231);
+   background-color: rgb(236, 232, 254);
+   padding-block: 20px;
+   font-size: 17px;
+}
+
+.p20{
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+
+
+.raw3{
+   width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom: 2px gainsboro solid;  
+}
+
+
+
+.raw4{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom: 2px gainsboro solid;
+}
+
+
+
+.raw5{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom: 2px gainsboro solid;
+}
+
+
+
+.raw6{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom: 2px gainsboro solid;
+}
+
+
+
+.raw7{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom: 2px gainsboro solid;
+}
+
+
+
+.raw8{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom: 2px gainsboro solid;
+}
+
+
+
+.raw9{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom: 2px gainsboro solid;
+}
+
+
+
+.raw10{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom: 2px gainsboro solid;
+}
+
+
+
+.raw11{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.hd11{
+    color: rgb(111, 8, 231);
+    background-color: rgb(236, 232, 254);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-block: 20px;
+}
+
+.winner{
+    width: 25%;
+    color: rgb(0, 166, 58);
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    /* display: flex;
+    justify-content: space-around; */
+    padding: 16px 32px;
+    margin-top: 45px;
+    margin-inline: 37.5%;
+}
+
+.win-h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+.win-p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.review{
+    width: 80%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.rev{
+    width: 100%;
+    text-align: center;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+    /* flex-direction: column;  */
+    /* margin-inline: 30%; */
+    margin-bottom: 50px;
+}
+
+.rev-a{
+    text-align: center;
+    font-size: 40px;
+}
+
+.customer{
+    color: rgb(127, 35, 253);
+}
+
+.rev-p{
+    text-align: center;
+    font-size: 25;
+}
+
+.review-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.sticky{
+    width: 30%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: sticky;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.sticky   h2{
+    font-size: 50px;
+}
+
+.sticky   .r-s{
+    color: rgb(250, 198, 24);
+    font-size: 20px;
+}
+
+.based{
+    font-size: 20px;
+}
+
+.r-r{
+    font-size: 17px;
+    padding-bottom:20px ;
+}
+
+
+.sticky-footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.sticky-footer   h3{
+    font-size: 25px;
+}
+.sticky-footer   p{
+    font-size: 20px;
+}
+
+.review-p{
+    width: 60%;
+}
+
+.r1{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    border: 2px gainsboro solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.r1   h2{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.r1   h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.r1   p{
+   font-size: 20px;
+   padding-bottom: 15px; 
+}
+
+.r1-s{
+    color: rgb(250, 198, 24);
+}
+
+#r1-p{
+    font-size: 25px;
+}
+
+.r2{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 2px gainsboro solid;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.r2   h2{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.r2   h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.r2   p{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+#r2-p{
+    font-size: 25px;
+}
+
+
+
+.products{
+    width: 100%;
+    background-color:rgb(236, 232, 254) ;
+    padding-top: 50px;
+}
+
+.products   a{
+    width: 30%;
+    text-align: center;
+    margin-inline:35% ;
+    font-size: 50px;
+}
+
+.setup{
+    color: rgb(127, 35, 253);
+}
+
+.Essential{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.other-p{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.w-20{
+    width: 20%;
+    border: 2px gainsboro solid;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+}
+
+.w-20   img{
+    width: 90%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.w-20   h2{
+    font-size: 25px;
+    padding-block: 20px;
+}
+
+.w-20   p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.w-20   h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.w-20   button{
+    color: white;
+    background-color: rgb(127, 35, 253);
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.accessories{
+    width: 20%;
+    margin-inline: 40%;
+    text-align: center;
+    color: rgb(127, 35, 253);
+    background-color: rgb(236, 232, 254);
+    font-size: 25px;
+    border: 3px rgb(127, 35, 253) solid;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 30px ;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+
+
+.end{
+    width: 100%;
+    background-color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-block: 50px;
+}
+
+.end   h2{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 35px;
+}
